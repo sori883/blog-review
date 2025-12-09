@@ -1,0 +1,26 @@
+{
+  "name": "blog-review",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/cli.ts",
+  "scripts": {
+    "review": "pnpm with-env tsx src/cli.ts",
+    "web2md": "tsx src/web2md.ts",
+    "with-env": "dotenv -e .env --"
+  },
+  "packageManager": "pnpm@10.18.2",
+  "dependencies": {
+    "@strands-agents/sdk": "^0.1.2"
+  },
+  "devDependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "@types/jsdom": "^27.0.0",
+    "@types/node": "^24.10.2",
+    "dotenv-cli": "^11.0.0",
+    "html-to-md": "^0.8.8",
+    "jsdom": "^27.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
