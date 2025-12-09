@@ -1,5 +1,6 @@
 # プロンプト
 下記参照
+https://x.com/nwiizo/status/1998217802315137453
 
 # 使い方
 1. .env.exampleを設定
